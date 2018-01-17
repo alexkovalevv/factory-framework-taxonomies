@@ -91,7 +91,7 @@
 		 * @since 1.0.0
 		 */
 		public $options = array(
-			'hierarchical' => null,
+			'hierarchical' => true,
 			'labels' => null,
 			'description' => null,
 			'public' => null,
