@@ -2,12 +2,17 @@
 	/**
 	 * Factory Taxonomies
 	 *
-	 * @author Paul Kashtanoff <paul@byonepress.com>
-	 * @copyright (c) 2013, OnePress Ltd
+	 * @author Alex Kovalev <alex.kovalevv@gmail.com>
+	 * @copyright (c) 2018, Webcraftic Ltd
 	 *
 	 * @package core
 	 * @since 1.0.0
 	 */
+
+	// Exit if accessed directly
+	if( !defined('ABSPATH') ) {
+		exit;
+	}
 
 	if( defined('FACTORY_T_000_LOADED') ) {
 		return;
@@ -17,7 +22,7 @@
 	define('FACTORY_TAXONOMIES_000_DIR', dirname(__FILE__));
 	define('FACTORY_TAXONOMIES_000_URL', plugins_url(null, __FILE__));
 
-	load_plugin_textdomain('factory_types_000', false, dirname(plugin_basename(__FILE__)) . '/langs');
+	load_plugin_textdomain('factory_taxonomies_000', false, dirname(plugin_basename(__FILE__)) . '/langs');
 
 	// sets version of admin interface
 	if( is_admin() ) {
