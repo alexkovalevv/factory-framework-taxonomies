@@ -18,7 +18,7 @@ if ( defined( 'FACTORY_T_000_LOADED' ) ) {
 	return;
 }
 
-define( 'FACTORY_TAXONOMIES_000_VERSION', '3.2.7' );
+define( 'FACTORY_TAXONOMIES_000_VERSION', '3.2.8' );
 
 define( 'FACTORY_TAXONOMIES_000_LOADED', true );
 
